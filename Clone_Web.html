@@ -1,0 +1,161 @@
+<!doctypel html>
+<html lang="em">
+<head>
+    <title>My CSS First Website
+    </title>
+    <link rel="stylesheet" href="First%20Website%20CSS.css">
+    </head>
+<body>
+    
+    <nav>
+        <ul class="topnav" id="dropdownClick">
+            <li><a class="active" href="#home">Home</a></li>
+             <li><a href="#News">News</a></li>
+             <li><a href="#Contact">Contact</a></li>
+             <li><a href="#About">About</a></li>
+             <li class="topnav-right"><a href="#Signup">Sign up</a></li>
+            <li class="topnav-right"><a href="Signin">Sign In</a></li>
+            <li class="dropdownIcon"><a href="javascript:void(0);"onclick="dropdownMenu()">&#9776;</a></li>    
+        </ul>
+    </nav>
+    
+    <div class="container" id="section-1-gradient">
+    </div>
+<div class="container" id="section-1-gradient">
+        <div class="row">
+            <div class="col-6">
+                <div class="leftSide-col">
+                    <h1 class="large">Crazy Radness</h1>
+                    <h1 class="large">Made for Devslopes</h1>
+                </div>
+                <form>
+                    <div class="leftSide-col">
+                        <h2>Username</h2>
+                        <input class="inputbox" type="text" placeholder="Username">
+                        <h2>Password</h2>
+                        <input class="inputbox" type="Password" placeholder="Password">
+                    </div>
+                
+                </form>
+            </div>
+            <div class="cpl-6">
+                <div class="rightSide-col">
+                    <div class="videoContainer">
+                <iframe width="400" height="250" src="https://www.youtube.com/embed/rYeSA1vgIUE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <header>
+        <h1 class="Section2Header">The Standerd of Awesomeness</h1>
+    </header>
+    <div class="conatiner">
+        <div class="row">
+             <div class="col-4">
+                <div class="box">
+                    <div>
+                        <img src="Images\devslope_icon.jfif">
+                    </div>
+                    <label>
+                        Chat with Me</label>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."</p>
+                </div>
+            </div>
+             <div class="col-4">
+                <div class="box">
+                    <div>
+                        <img src="Images\devslope_icon.jfif">
+                    </div>
+                    <label>
+                        Learn To Code</label>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."</p>
+                </div>
+            </div>
+             <div class="col-4">
+                <div class="box">
+                    <div>
+                        <img src="Images\devslope_icon.jfif">
+                    </div>
+                    <label>
+                        Build an Empire</label>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+    <div class="col-12">
+        <button class="LearnMore">Learn More</button>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+        <div class="col-7">
+            <article>
+                <p>
+                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. 
+                </p>
+            </article>
+            </div> 
+            <div class="col-5">
+        <div class="slopeicon">
+            <img src="Images\Coderat.jfif">
+        </div>
+        </div>  
+    </div>
+    </div>
+    <footer class="footsy">
+        <div class="row">
+            <div class="col-3 mobileStack">
+                <h1>Company</h1>
+                <ul>
+                    <li>&nbsp;About</li>
+                    <li>&nbsp;Blog</li>
+                    <li>&nbsp;Carrers</li>
+                </ul>
+            </div>
+               <div class="col-3 mobileStack">
+                <h1>Moto</h1>
+                <ul>
+                    <li>&nbsp;Achievement</li>
+                    <li>&nbsp;Aim</li>
+                    <li>&nbsp;Leads</li>
+                </ul>
+                
+            </div>
+               <div class="col-3 mobileStack">
+                <h1>Projects</h1>
+                <ul>
+                    <li>&nbsp;First</li>
+                    <li>&nbsp;Second</li>
+                    <li>&nbsp;Third</li>
+                </ul>
+                
+            </div>
+               <div class="col-3">
+                <h1>Contact</h1>
+                <ul>
+                    <li>&nbsp;Mail</li>
+                    <li>&nbsp;No</li>
+                    <li>&nbsp;Toll Free</li>
+                </ul>
+                
+            </div>
+        </div>
+    </footer>
+    <script>
+        function dropdownMenu(){
+            var x= document.getElementById("dropdownClick");
+            if(x.className==="topnav"){
+                x.className+=" responsive";
+            }
+                /*change topnav to topnav responsive*/
+                else{
+                    x.className="topnav";
+                }
+        }
+    </script>
+    </body></html>
